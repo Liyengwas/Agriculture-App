@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "995734601149",
+    "firebase_url": "https://mugambiproject.firebaseio.com",
+    "project_id": "mugambiproject",
+    "storage_bucket": "mugambiproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995734601149:android:fd4286b302d92a3cd426d4",
+        "android_client_info": {
+          "package_name": "com.example.mugambiapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995734601149-c5sf3k1d9s5nn6rte1a6qmjhjct18kac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mugambiapplication",
+            "certificate_hash": "5d74972efe16e87b5ec06f49aea7ca255f99759b"
+          }
+        },
+        {
+          "client_id": "995734601149-fukcfdja4p6lvclvepstjlgnr1pj25pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHoiaFPVXr53jZldGxPbjbbjnHajaD9Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995734601149-fukcfdja4p6lvclvepstjlgnr1pj25pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
