@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Add New Product" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/slogan_category"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/animalproducts"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:src="@drawable/animalproducts"/>
+
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/vegetables"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/bananas"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:src="@drawable/banana"/>
+
+        <ImageView
+            android:id="@+id/potatoes"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/potatoes"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout_1"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fruits"/>
+
+        <ImageView
+            android:id="@+id/cereals"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cereals"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
