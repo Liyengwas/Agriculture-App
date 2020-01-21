@@ -138,6 +138,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 //redirect user to home activity after login
                                 Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
+                                Prevalent.currentOnlineUser = usersData;
                                 startActivity(intent);
 
                             }
