@@ -92,9 +92,14 @@ public class MainActivity extends AppCompatActivity {
                             loadingBar.dismiss();
 
                             //redirect user to home activity after login
-                            Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                            Prevalent.currentOnlineUser = usersData;
                             startActivity(intent);
-
+                        }
+                        else
+                        {
+                            loadingBar.dismiss();
+                            Toast.makeText(MainActivity.this, "Password is incorrect.", Toast.LENGTH_SHORT).show();
                         }
                     }
 
