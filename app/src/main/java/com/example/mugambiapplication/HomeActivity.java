@@ -94,7 +94,7 @@ public class HomeActivity extends AppCompatActivity
         CircleImageView profileImageView = headerView.findViewById(R.id.user_profile_image);
 
         userNameTextView.setText(Prevalent.currentOnlineUser.getName());
-        Picasso.get().load(Prevalent.currentOnlineUser.getImage()).placeholder(R.drawable.profile).into(profileImageView);
+//        Picasso.get().load(Prevalent.currentOnlineUser.getImage()).placeholder(R.drawable.profile).into(profileImageView);
 
 
         recyclerView = findViewById(R.id.recycler_menu);
@@ -122,7 +122,7 @@ public class HomeActivity extends AppCompatActivity
                     {
                         holder.txtProductName.setText(model.getPname());
                         holder.txtProductDescription.setText(model.getDescription());
-                        holder.txtProductPrice.setText("Price = " + model.getPrice() + "Ksh.");
+                        holder.txtProductPrice.setText("Price = KSh " + model.getPrice() );
                         Picasso.get().load(model.getImage()).into(holder.imageView);
                     }
 
